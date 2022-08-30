@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react'
 
 const API_URL = "https://v2.jokeapi.dev/joke/Programming/Any?blacklistFlags=nsfw,racist,sexist,explicit,religious,political&type=twopart"
 
+const BASE_API_URL = "https://v2.jokeapi.dev/joke/Programming/Any?&type=twopart"
+
 export default function Home() {
   const [jokeA, setJokeA] = useState("")
   const [jokeB, setJokeB] = useState("")
