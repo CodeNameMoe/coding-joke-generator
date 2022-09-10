@@ -54,6 +54,7 @@
     background-color: #fbc531;
     width: 70%;
     color: white;
+    
 }
 
 #delivery {
@@ -85,7 +86,7 @@
     }
     .container {
         background-color: #273c75;
-        height: 100vh;
+        height: 100%;
     }
     .btn {
         margin: 1rem;
